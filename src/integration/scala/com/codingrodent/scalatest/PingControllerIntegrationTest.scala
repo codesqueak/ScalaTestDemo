@@ -24,7 +24,7 @@ class PingControllerIntegrationTest extends FeatureSpec with GivenWhenThen with 
   val baseUrl = s"http://localhost:8080"
 
   feature("Ping controller") {
-    scenario("Check the serviceis functional") {
+    scenario("Check the service is functional") {
       Given("We hase defined an endpoint /ping")
       val url = s"$baseUrl/ping"
       When("and a call to /ping is sent")
