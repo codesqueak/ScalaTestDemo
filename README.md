@@ -10,8 +10,8 @@ git clone https://github.com/codesqueak/ScalaTestDemo.git
 ```
 ## You should see the test output ...
 ```
-  Scenario: Check the serviceis functional
-    Given We hase defined an endpoint /ping
+  Scenario: Check the service is functional
+    Given We have defined an endpoint /ping
     When and a call to /ping is sent
     Then we get a response with the 'pong' message
 ```
